@@ -1,0 +1,15 @@
+phpImageVersionTag: "2023-Mar-01-a741e4a"
+phpImageVersionName: "gcr.io/hotel-booking-378919/php-frontend"
+replicaCount: 1
+ServicePortCustom:  8080
+image:
+  pullPolicy: IfNotPresent
+  # Overrides the image tag whose default is the chart appVersion.
+  tag: "8.1.16-zts-bullseye"
+serviceAccount:
+  name: zaidmaslat
+containers:
+    livenessProbe:
+      periodSeconds: 10
+    readinessProbe:
+      periodSeconds: 30  
