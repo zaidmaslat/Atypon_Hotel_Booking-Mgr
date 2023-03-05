@@ -5,7 +5,7 @@
 
 
 <?php
-echo "<h1 style=\"text-align:center; font-size:50px;\">Managers Page</h1>";
+echo "<h1 style=\"text-align:center; font-size:50px;\">Manager's Page</h1>";
 ?>
 <?php
 echo "<h1 style='color:blue; text-align:center; font-size:25px;'><a href='addHotel.php?managerID=$managerID'>Add Hotel</a></h1>";
