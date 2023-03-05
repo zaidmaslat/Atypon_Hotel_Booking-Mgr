@@ -1,5 +1,5 @@
 phpImageVersionTag: "2023-Mar-01-a741e4a"
-phpImageVersionName: "gcr.io/hotel-booking-378919/php-frontend"
+phpImageVersionName: "gcr.io/hotel-booking-378919/hm-mgr"
 replicaCount: 1
 ServicePortCustom:  8080
 image:
