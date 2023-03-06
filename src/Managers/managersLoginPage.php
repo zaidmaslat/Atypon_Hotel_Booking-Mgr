@@ -60,7 +60,7 @@
                                 <div class="solu_description">
                                     <h3>
 
-                                        <a class="link" href='reports.php?managerID=<?php echo $_GET['managerID'];?></a>'>Reports</a>
+                                        <a class="link" href="reports.php?managerID=<?php echo $_GET['managerID'];?>">Reports</a>
                                     </h3>
                                 </div>
                             </div>
