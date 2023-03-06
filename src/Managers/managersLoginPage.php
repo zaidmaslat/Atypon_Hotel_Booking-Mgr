@@ -27,7 +27,7 @@
                                 </div>
                                 <div class="solu_description">
                                     <h3>
-                                        <a class="link" href='addHotel.php?managerID=<?php $_GET['managerID'];?>'>Add Hotel</a>
+                                        <a class="link" href='addHotel.php?managerID=<?php echo $_GET['managerID'];?>'>Add Hotel</a>
                                     </h3>
                                 </div>
                             </div>
@@ -35,7 +35,7 @@
                                 <div class="hover_color_bubble"></div>
                                 <div class="solu_description">
                                     <h3>
-                                        <a class="link" href='manageReservation.php?managerID=<?php $_GET['managerID'];?>'>Manage My
+                                        <a class="link" href='manageReservation.php?managerID=<?php echo $_GET['managerID'];?>'>Manage My
                                             Hotel's Reservations</a>
                                     </h3>
 
@@ -49,7 +49,7 @@
                                 <div class="solu_description">
                                     <h3>
 
-                                        <a class="link" href='modifyHotel.php?managerID=<?php $_GET['managerID'];?></a>'>Modify My Hotels</a>
+                                        <a class="link" href='modifyHotel.php?managerID=<?php echo $_GET['managerID'];?></a>'>Modify My Hotels</a>
                                     </h3>
                                 </div>
                             </div>
@@ -60,7 +60,7 @@
                                 <div class="solu_description">
                                     <h3>
 
-                                        <a class="link" href='reports.php?managerID=<?php $_GET['managerID'];?></a>'>Reports</a>
+                                        <a class="link" href='reports.php?managerID=<?php echo $_GET['managerID'];?></a>'>Reports</a>
                                     </h3>
                                 </div>
                             </div>
