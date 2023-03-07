@@ -12,6 +12,41 @@
 </head>
 
 <body>
+
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light paddingHeder ">
+			<a class="navbar-brand" href="#">Booking Hotel</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+				aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href='addHotel.php?managerID=<?php echo $_GET["managerID"];?>'>Add Hotel</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href='manageReservation.php?managerID=<?php echo $_GET["managerID"];?>'>Manage My
+                            Hotel's Reservations</a>
+					</li>
+                    <li class="nav-item">
+						<a class="nav-link" href='modifyHotel.php?managerID=<?php echo $_GET["managerID"];?>'>Modify My Hotels</a>
+					</li>
+                    <li class="nav-item">
+						<a class="nav-link" href='reports.php?managerID=<?php echo $_GET["managerID"];?>'>Reports</a>
+					</li>
+                    <li class="nav-item">
+						<a class="nav-link" href='#'>Sign out</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+    </header>
+
     <Main>
         <br><br><br><br><br>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
