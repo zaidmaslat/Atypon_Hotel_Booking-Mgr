@@ -40,7 +40,7 @@
 						<a class="nav-link" href='reports.php?managerID=<?php echo $_GET["managerID"];?>'>Reports</a>
 					</li>
                     <li class="nav-item">
-						<a class="nav-link" href='#'>Sign out</a>
+						<a class="nav-link" href="http://app.hotel-booking-378919.com/">Sign out</a>
 					</li>
 				</ul>
 			</div>
