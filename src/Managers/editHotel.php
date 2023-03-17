@@ -20,10 +20,10 @@ mysqli_connect_error();
     }
     $city = $_POST['city'];
 
-    if (!isset($_POST['num_rooms'])) {
+    if (!isset($_POST['num-rooms'])) {
         echo 'No num-rooms was specified.';
     }
-    $num_rooms = $_POST['num_rooms'];
+    $num_rooms = $_POST['num-rooms'];
 
    mysqli_query($con,"UPDATE `hotels` SET `hotelName`='$name',`hotelPhone`='$hotelPhone',`city`='$city',`num_rooms`='$num_rooms' WHERE hotelName='$name'");
 
