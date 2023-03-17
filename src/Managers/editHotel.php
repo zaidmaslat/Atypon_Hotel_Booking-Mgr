@@ -11,17 +11,17 @@ mysqli_connect_error();
     $name = $_POST['hotelName'];
 
     if (!isset($_POST['hotelPhone'])) {
-        echo 'No hotel name was specified.';
+        echo 'No hotel phone was specified.';
     }
     $hotelPhone = $_POST['hotelPhone'];
     
     if (!isset($_POST['city'])) {
-        echo 'No hotel name was specified.';
+        echo 'No city was specified.';
     }
     $city = $_POST['city'];
 
     if (!isset($_POST['num-rooms'])) {
-        echo 'No hotel name was specified.';
+        echo 'No num-rooms was specified.';
     }
     $num_rooms = $_POST['num-rooms'];
 
